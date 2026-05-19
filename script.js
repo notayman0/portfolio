@@ -1,1 +1,1 @@
-console.log("Portfolio website loaded successfully");
+console.log("AWS Portfolio Website Loaded Successfully");

@@ -4,64 +4,54 @@
     box-sizing:border-box;
 }
 
-html{
-    scroll-behavior:smooth;
-}
-
 body{
     font-family:'Poppins',sans-serif;
-    background:#161E2D;
-    color:#F2F3F3;
+    background:#0F172A;
+    color:#F8FAFC;
     line-height:1.8;
 }
 
-/* HERO */
-
 .hero{
+    background:#161E2D;
     text-align:center;
-    padding:90px 20px;
-    background:linear-gradient(135deg,#1A2533,#232F3E);
-    border-bottom:4px solid #FF9900;
+    padding:100px 20px;
+    border-bottom:5px solid #FF9900;
 }
 
 .profile-image{
     width:190px;
     height:190px;
-    object-fit:cover;
     border-radius:50%;
+    object-fit:cover;
     border:5px solid #FF9900;
     margin-bottom:25px;
-    box-shadow:0 0 30px rgba(255,153,0,0.4);
 }
 
 .hero h1{
     font-size:48px;
     margin-bottom:10px;
-    color:white;
 }
 
 .hero h2{
     color:#FF9900;
-    font-weight:500;
     margin-bottom:25px;
+    font-weight:500;
 }
 
 .intro{
     max-width:850px;
     margin:auto;
-    color:#D5DBDB;
-    font-size:18px;
+    color:#CBD5E1;
     margin-bottom:35px;
+    font-size:18px;
 }
-
-/* BUTTONS */
 
 .buttons a{
     display:inline-block;
     text-decoration:none;
     background:#FF9900;
-    color:#161E2D;
-    padding:14px 26px;
+    color:#111827;
+    padding:14px 24px;
     margin:10px;
     border-radius:10px;
     font-weight:600;
@@ -69,38 +59,26 @@ body{
 }
 
 .buttons a:hover{
-    transform:translateY(-5px);
     background:#ffad1f;
-    box-shadow:0 5px 15px rgba(255,153,0,0.4);
+    transform:translateY(-5px);
 }
-
-/* SECTION */
 
 section{
     padding:70px 10%;
 }
 
 .section-title{
-    font-size:36px;
+    font-size:34px;
     margin-bottom:35px;
     color:#FF9900;
-    border-left:6px solid #FF9900;
-    padding-left:15px;
 }
-
-/* CARDS */
 
 .card{
-    background:#232F3E;
-    padding:30px;
-    margin-bottom:30px;
+    background:#1E293B;
+    padding:35px;
     border-radius:18px;
+    margin-bottom:30px;
     box-shadow:0 5px 20px rgba(0,0,0,0.3);
-    transition:0.3s;
-}
-
-.card:hover{
-    transform:translateY(-6px);
 }
 
 .card h3{
@@ -110,9 +88,8 @@ section{
 }
 
 .job-title{
-    color:#9BA7B2;
+    color:#94A3B8;
     margin-bottom:20px;
-    font-size:18px;
 }
 
 .card ul{
@@ -121,10 +98,7 @@ section{
 
 .card ul li{
     margin-bottom:14px;
-    color:#EAEDED;
 }
-
-/* SKILLS */
 
 .skills{
     display:flex;
@@ -133,37 +107,28 @@ section{
 }
 
 .skills span{
-    background:#37475A;
+    background:#334155;
     padding:14px 22px;
     border-radius:30px;
     transition:0.3s;
-    font-weight:500;
 }
 
 .skills span:hover{
     background:#FF9900;
-    color:#161E2D;
-    transform:scale(1.05);
+    color:#111827;
 }
-
-/* CONTACT */
 
 .contact p{
     margin-bottom:15px;
-    font-size:18px;
 }
-
-/* FOOTER */
 
 footer{
+    background:#111827;
     text-align:center;
-    background:#111927;
     padding:35px;
-    border-top:3px solid #FF9900;
-    color:#9BA7B2;
+    border-top:4px solid #FF9900;
+    color:#94A3B8;
 }
-
-/* RESPONSIVE */
 
 @media(max-width:768px){
 
@@ -172,21 +137,17 @@ footer{
     }
 
     .hero h2{
-        font-size:20px;
+        font-size:22px;
     }
 
     .section-title{
         font-size:28px;
     }
 
-    section{
-        padding:50px 7%;
-    }
-
     .buttons a{
         display:block;
         width:80%;
-        margin:12px auto;
+        margin:15px auto;
     }
 
 }
